@@ -1,0 +1,21 @@
+# 集群编排脚本包含内部路径，不随仓库发布
+chain_guardian.py
+
+# 一次性调试脚本
+probe*.sh
+debug_parity.py
+
+# 本地临时产物
+*.log
+*.out
+*.pt
+*.bin
+*.so
+*.pyc
+__pycache__/
+.env
+.env.*
+*.pem
+*.key
+*kubeconfig*
+*credentials*
